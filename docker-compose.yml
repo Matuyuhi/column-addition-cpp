@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  cpp-app:
+    build: .
+    volumes:
+      - ./:/app:z
+    command: >
+      bash -c "rm -rf build/* &&
+               mkdir -p build &&
+               cd build &&
+               cmake .. &&
+               make &&
+               ./work"

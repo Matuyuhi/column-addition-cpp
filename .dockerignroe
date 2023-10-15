@@ -1,0 +1,6 @@
+/out
+/cmake-build-debug
+/ARM64
+/.vs
+work.sln
+*.vcxproj
