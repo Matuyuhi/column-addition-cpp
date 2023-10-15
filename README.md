@@ -1,14 +1,16 @@
 # column-addition-cpp
 
+### Description
+
 簡単な筆算シュミレーター
 
-### Env
+### Environment
 - apple m2
 - macOS Sonoma 14.0
 - cmake 3.22.1
   
-### Usage
- cmake or docker or vsproj
+### How to run
+ `cmake` or `docker` or `Visual Studio 2022`
 
  - cmake
 ```bash
@@ -19,6 +21,6 @@ make run
 make docker
 ```
 
-- vsproj
-  - open in Visual Studio 2022
-  - run on `Debug`
+- in Visual Studio 2022
+  - open Visual Studio 2022
+  - run on `Debug` mode
